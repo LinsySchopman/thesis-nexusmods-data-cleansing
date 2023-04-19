@@ -4,7 +4,7 @@ import csv
 import os
 
 # Set the path to the directory containing the JSON files
-json_dir = r"K:\Thesis Data\Sample B\Nexus Mods\Sample B - Nexus downloads - 518"
+json_dir = r"K:\Thesis Data\Sample B\Nexus Mods\downloads"
 
 # Create a CSV file to store the data
 csv_file = open("nexusmods_downloads.csv", "w", newline="")
@@ -29,7 +29,7 @@ for json_file in os.listdir(json_dir):
             page_views = data["page_views"].get(date, 0)
             unique_downloads = data["unique_downloads"].get(date, 0)
 
-            # Write a row to the CSV file
+            # Write row to the CSV file
             csv_writer.writerow([nexus_id, date, downloads, page_views, unique_downloads])
             print(f"Processing file {json_file}")
 
