@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-folder_path = r'K:\Thesis Data\Sample B\Nexus Mods\Sample B Nexus files added'
+folder_path = r'K:\Thesis Data\Sample B\Nexus Mods\new_files
 
 # loop through all files in the folder
 for file_name in os.listdir(folder_path):
