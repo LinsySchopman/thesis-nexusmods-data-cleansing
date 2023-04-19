@@ -1,4 +1,4 @@
-# Convert .json to .csv, header columns and nexus_id column
+# Import libraries
 import json
 import csv
 import os
