@@ -26,4 +26,4 @@ for file_name in os.listdir(folder_path):
         df = df[['nexus_id', 'date', 'new_files']] 
         
         # Overwrite the original file with the modified DataFrame
-        df.to_csv(file_path, index=False) #
+        df.to_csv(file_path, index=False)
