@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 # Set the filepath
-folder_path = r'K:\Thesis Data\Sample B\Nexus Mods\new_files
+folder_path = r'K:\Thesis Data\Sample B\Nexus Mods\newfiles
 
 # Loop through all files in the folder
 for file_name in os.listdir(folder_path):
@@ -12,6 +12,8 @@ for file_name in os.listdir(folder_path):
         
         # Remove ".csv" from file name
         nexus_id = file_name[:-4] 
+
+        # Read the dataframe
         df = pd.read_csv(file_path)
         
         # Rename existing columns
