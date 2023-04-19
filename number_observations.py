@@ -1,5 +1,7 @@
+# Import libraries
 import pandas as pd
 
+# Set the file path
 filepath = r'K:\Thesis Data\Sample B\Nexus Mods\-nexus_mods_merged.csv'
 
 # Read the CSV file into a Pandas DataFrame
