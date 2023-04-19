@@ -1,1 +1,1 @@
-# thesis-nexusmods-data-cleansing
+# Master thesis - Cleansing Nexus Mods data in Python
