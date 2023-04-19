@@ -1,9 +1,9 @@
-# convert .json to .csv, header columns and nexus_id column
+# Convert .json to .csv, header columns and nexus_id column
 import json
 import csv
 import os
 
-# Path to the directory containing the JSON files
+# Set the path to the directory containing the JSON files
 json_dir = r"K:\Thesis Data\Sample B\Nexus Mods\Sample B - Nexus downloads - 518"
 
 # Create a CSV file to store the data
